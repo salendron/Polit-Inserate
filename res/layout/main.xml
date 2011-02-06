@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="left|center_vertical"
+    android:background="#FFFFFF"
+    >
+    
+    <ImageView 
+		android:layout_width="72px" 
+		android:layout_height="72px" 
+		android:id="@+id/logo"
+		android:paddingLeft="5px"
+		android:paddingTop="15px"
+		android:src="@drawable/icon">
+	</ImageView>
+	
+	<TextView 
+			android:paddingLeft="5px"
+	    	android:layout_width="fill_parent" 
+	    	android:layout_height="wrap_content"
+	    	android:textColor="#A4A4A4"
+	    	android:textSize="18pt"
+	    	android:textStyle="bold"
+	    	android:text="@string/app_name">
+	</TextView>
+	
+	
+    
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:id="@+id/llChoosePicSource"
+	    android:orientation="vertical"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    >
+	    
+	    <Button 
+			android:layout_width="fill_parent" 
+			android:layout_height="wrap_content" 
+			android:text="@string/picFromCam" 
+			android:id="@+id/btnPicFromCam">
+		</Button>
+		
+		<Button 
+			android:layout_width="fill_parent" 
+			android:layout_height="wrap_content" 
+			android:text="@string/picFromGal" 
+			android:id="@+id/btnPicFromGal">
+		</Button>
+		
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		    android:orientation="vertical"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:gravity="right"
+		    android:paddingTop="25px"
+		    android:paddingRight="5px"
+		    >
+	    
+	    	<Button 
+				android:layout_width="fill_parent" 
+				android:layout_height="wrap_content" 
+				android:text="@string/logout" 
+				android:id="@+id/btnLogout"
+				android:background="#FFFFFF"
+				android:textColor="#a4a4a4"
+				android:textSize="18px"
+				android:textStyle="bold"
+				android:gravity="right">
+			</Button>
+	    
+	    </LinearLayout>
+    
+    </LinearLayout>
+    
+
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:id="@+id/llSetCredentials"
+	    android:orientation="vertical"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    >
+	    
+	    <TextView 
+	    	android:layout_width="fill_parent" 
+	    	android:layout_height="wrap_content"
+	    	android:text="@string/lblUsername">
+	    </TextView>
+	    
+	    <EditText 
+	    	android:layout_width="fill_parent" 
+	    	android:layout_height="wrap_content" 
+	    	android:id="@+id/tvUsername" 
+	    	android:contentDescription="@string/lblUsername">
+	    </EditText>
+	    
+	    <TextView 
+	    	android:layout_width="fill_parent" 
+	    	android:layout_height="wrap_content"
+	    	android:text="@string/lblPassword">
+	    </TextView>
+	    
+	    <EditText 
+	    	android:layout_width="fill_parent" 
+	    	android:layout_height="wrap_content" 
+	    	android:id="@+id/tvPassword" 
+	    	android:contentDescription="@string/lblPassword">
+	    </EditText>
+		
+		<Button 
+			android:layout_width="fill_parent" 
+			android:layout_height="wrap_content" 
+			android:text="@string/lblLogin" 
+			android:id="@+id/btnLogin">
+		</Button>
+    
+    </LinearLayout>
+    
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:id="@+id/llUpload"
+	    android:orientation="vertical"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:gravity="center"
+	    >
+	    
+	    <ImageView 
+			android:layout_width="300px" 
+			android:layout_height="300px" 
+			android:id="@+id/image"
+			android:paddingLeft="5px"
+			android:paddingTop="15px">
+		</ImageView>
+		
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		    android:orientation="horizontal"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:gravity="center"
+		    >
+		
+			<Button 
+				android:layout_width="wrap_content" 
+				android:layout_height="wrap_content"
+				android:text="@string/lblCancel" 
+				android:id="@+id/btnCancel">
+			</Button>
+			
+			<Button 
+				android:layout_width="wrap_content" 
+				android:layout_height="wrap_content"
+				android:text="@string/lblUpload" 
+				android:id="@+id/btnUpload">
+			</Button>
+		
+		</LinearLayout>
+    
+    </LinearLayout>
+
+</LinearLayout>

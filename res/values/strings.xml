@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, Upload!</string>
+    <string name="app_name">Polit-Inserate</string>
+<string name="picFromCam">neues Bild aufnehmen</string>
+<string name="picFromGal">vorhandenes Bild auswählen</string>
+<string name="lblUsername">Username</string>
+<string name="lblPassword">Password</string>
+<string name="lblLogin">Login</string>
+<string name="lblCancel">Cancel</string>
+<string name="lblUpload">Upload</string>
+
+<string name="logout">abmelden</string>
+</resources>
